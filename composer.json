@@ -11,13 +11,20 @@
         "laravel/tinker": "^2.10.1"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^4.0",
+        "barryvdh/laravel-ide-helper": "^3.6",
+        "doctrine/dbal": "^4.4",
         "fakerphp/faker": "^1.23",
+        "friendsofphp/php-cs-fixer": "^3.94",
+        "larastan/larastan": "^3.9",
         "laravel/pail": "^1.2.2",
         "laravel/pint": "^1.24",
         "laravel/sail": "^1.53",
         "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.6",
-        "phpunit/phpunit": "^11.5.3"
+        "nunomaduro/collision": "^8.9",
+        "phpmd/phpmd": "^2.15",
+        "phpunit/phpunit": "^11.5",
+        "squizlabs/php_codesniffer": "^4.0"
     },
     "autoload": {
         "psr-4": {
