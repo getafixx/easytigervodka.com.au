@@ -1,7 +1,8 @@
 <?php
 
-return [
+declare(strict_types=1);
 
+return [
     /*
     |--------------------------------------------------------------------------
     | Resend API Key
@@ -55,5 +56,4 @@ return [
         'secret' => env('RESEND_WEBHOOK_SECRET'),
         'tolerance' => env('RESEND_WEBHOOK_TOLERANCE', 300),
     ],
-
 ];
