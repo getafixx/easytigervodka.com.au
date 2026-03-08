@@ -20,4 +20,19 @@ class ContactController extends Controller
 
         return back()->with('success', 'Thank you for your message! We will get back to you shortly.');
     }
+    // // ... inside your controller method
+    // public function submit(Request $request)
+    // {
+    //     $data = $request->validate([
+    //         'name' => 'required',
+    //         'email' => 'required|email',
+    //         'message' => 'required',
+    //     ]);
+
+    //     // This will now send via Resend API using the configuration above
+    //     Mail::to('admin@easytigervodka.com.au')->send(new ContactFormMail($data));
+
+    //     return back()->with('success', 'Message sent!');
+    // }
+
 }
