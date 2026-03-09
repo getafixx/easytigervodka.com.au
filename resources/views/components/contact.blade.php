@@ -1,33 +1,11 @@
 <section class="contact" id="contact">
+
+
+
   <div class="section-label">Get in Touch</div>
   <h2 class="section-title">Contact Us</h2>
+  <livewire:contact-form />
 
-  @if(session('success'))
-    <div class="alert-success">
-      {{ session('success') }}
-    </div>
-  @endif
-
-  <form action="/contact" method="POST" class="contact-form">
-    @csrf
-
-    <div class="form-group">
-      <label for="name">Name</label>
-      <input type="text" name="name" id="name" required>
-    </div>
-
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required>
-    </div>
-
-    <div class="form-group">
-      <label for="message">Message</label>
-      <textarea name="message" id="message" rows="5" required></textarea>
-    </div>
-
-    <button type="submit" class="btn-primary">Send Message</button>
-  </form>
 </section>
 
 <style>
