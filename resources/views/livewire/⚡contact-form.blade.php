@@ -21,7 +21,7 @@ new class extends Component {
     {
         $this->validate();
 
-        Mail::to('hello@easytigervodka.com.au')->send(new ContactFormMail([
+        Mail::to(env('MAIL_TO_ADDRESS'))->send(new ContactFormMail([
             'name' => $this->name,
             'email' => $this->email,
             'message' => $this->message,
