@@ -3,7 +3,7 @@
     EASY TIGER
     <span>Vodka — Southern Highlands, NSW</span>
   </div>
-  
+
   <div class="footer-links">
     <a href="#process">Process</a>
     <a href="#story">Story</a>
